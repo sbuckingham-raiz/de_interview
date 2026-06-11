@@ -9,7 +9,7 @@ Repo for the Raiz Data Engineer technical interview round.
 
 ## Repository Structure
 ```plaintext
-├── src/               # Contains a Postgres client with methods that connect and ingest files as well as a file with utilitiy functions.
+├── src/               # Contains a Postgres client and utility functions
 ├── .env-example       # Example of .env file
 ├── data.csv           # File that you will be ingesting
 ├── main.py            # Entry point for your program  
