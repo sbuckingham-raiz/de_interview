@@ -1,3 +1,4 @@
+from typing import Any
 from io import TextIOWrapper
 
 import psycopg2
@@ -37,6 +38,13 @@ class Postgres(BaseModel):
         cursor.execute(query)
         print('Successfully ran query...')
         
+    def get_data(self, query: str, connection: connection) -> tuple[Any]:
+        '''Takes a query and runs it in the connected database. Returns the data as a tuple'''
+        cursor = connection.cursor()
+        cursor.execute(query)
+        rows = cursor.fetchall()
+        return rows
+            
     def load_csv(self,
                  csv_file_path: str,
                  table_name: str,
