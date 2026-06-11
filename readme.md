@@ -4,6 +4,7 @@ Repo for the Raiz Data Engineer technical interview round.
 ## Table of Contents
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
+- [Interview Questions](#interview-q)
 
 ---
 
@@ -19,17 +20,22 @@ Repo for the Raiz Data Engineer technical interview round.
 
 ---
 ## Getting Started
-1. **Clone the Repository**
+1. **Make a directory named de_interview**
+2. **Clone the Repository into this directory**
 ``` bash
-git clone https://github.com/sbuckingham-raiz/de_interview.git
+git clone https://github.com/sbuckingham-raiz/de_interview.git ./de_interview
 ```
-2. **Set Up the Environment**
+3. **Set Up the Environment**
 ``` bash
 cp ./.env-example ./.env
 ```
-3. **Install Dependencies**
+4. **Install Dependencies**
 ``` bash
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+
+---
+## Interview Questions
+1. **Load the file data.csv into a Postgres database table named "data" **
