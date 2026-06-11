@@ -4,7 +4,7 @@ Repo for the Raiz Data Engineer technical interview round.
 ## Table of Contents
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
-- [Interview Questions](#interview-q)
+- [Interview Questions](#interview-questions)
 
 ---
 
@@ -38,4 +38,4 @@ pip install -r requirements.txt
 
 ---
 ## Interview Questions
-1. **Load the file data.csv into a Postgres database table named "data" **
+1. **Load the file data.csv into a Postgres database table named "data"**
