@@ -33,3 +33,13 @@ python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+5. **Set up docker**
+``` bash
+docker run -d \
+  --name de_interview \
+  -p 5432:5432 \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_DB=mydatabase \
+  postgres
+```
